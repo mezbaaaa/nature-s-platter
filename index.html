@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nature's platter</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwindcss cnd -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="bg-gradient-to-b from-gray-50 to-[#EFEBE3]">
+        <nav class=" md:max-w-[1320px] md:mx-auto ml-3 mt-3 flex items-center justify-between">
+            <img class="max-sm:hidden" src="assets/logo-header.png" alt="">
+            <img class="md:hidden  " src="assets/hader-logo-sm.png" alt="">
+            <div>
+                <ul class="max-sm:hidden flex gap-8 ">
+                    <li><a class="text-[#111111] text-xl sora-font hover:text-green-700 " href="">Product</a></li>
+                    <li><a class="text-[#111111] text-xl sora-font hover:text-green-700 " href="">Services</a></li>
+                    <li><a class="text-[#111111] text-xl sora-font hover:text-green-700 " href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-5">
+                <div class="max-sm:hidden flex gap-3 cursor-pointer ">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="undefined">
+                        <path
+                            d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="undefined">
+                        <path
+                            d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                    </svg>
+                </div>
+                <div class="max-sm:hidden flex gap-4">
+                    <button class="btn btn-outline px-10 sora-font">Login</button>
+                    <button class="btn  px-8 btn-active btn-success sora-font text-white bg-[#179800]">Register</button>
+                </div>
+                <div class="md:hidden flex flex-col justify-between w-7 h-5 cursor-pointer mr-3">
+                    <span class="block bg-green-600 h-[3px] w-full rounded-sm"></span>
+                    <span class="block bg-green-600 h-[3px] w-full rounded-sm"></span>
+                    <span class="block bg-green-600 h-[3px] w-full rounded-sm"></span>
+                </div>
+
+            </div>
+        </nav>
+        <div class="max-sm:w-full max-sm:border-t border-green-600 mt-3"></div>
+        <!-- banner -->
+        <section class="text-center mt-12 md:mt-24 sora-font mx-4 ">
+            <h1 class="font-semibold text-3xl md:text-6xl md:w-[827px] mx-auto"><span
+                    class="text-[#111111]">Freshness</span> <span class="text-green-600">You Can
+                    Count</span> <span class="text-[#111111]">On, Prices You’ll Love!</span></h1>
+            <p class="text-sm md:text-xl md:w-[827px] mx-auto mt-4 md:mt-8 text-[#111111]">Shop your daily essentials at
+                unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <img class="mx-auto" src="assets/hero-vegetables.png" alt="">
+        </section>
+    </header>
+    <main>
+        <!-- services -->
+        <section class="mt-12 mx-4 md:mt-36 md:max-w-[1320px] md:mx-auto sora-font">
+            <h1 class="text-green-600 font-semibold text-2xl md:text-4xl">Services</h1>
+            <div class="mt-8 md:mt-12 grid gap-y-5 md:grid-cols-3 md:gap-6">
+                <div class="bg-[#EFEBE3] rounded-xl p-6 md:p-9 text-center">
+                    <img class="mx-auto bg-white rounded-full p-4 md:p-6 max-sm:w-2/4" src="assets/service.png" alt="">
+                    <h3 class="font-semibold text-xl md:text-2xl mt-5 md:mt-6">24/7 Services </h3>
+                    <p class="font-light text-sm md:text-lg mt-2 md:mt-3">Our shop offers 24/7 service, ensuring
+                        seamless shopping, instant support, and hassle-free
+                        access to products anytime, anywhere. Shop conveniently!</p>
+                </div>
+                <div class="bg-[#EFEBE3] rounded-xl p-6 md:p-9 text-center">
+                    <img class="mx-auto bg-white rounded-full p-4 md:p-6 max-sm:w-2/4" src="assets/delivery.png" alt="">
+                    <h3 class="font-semibold text-xl md:text-2xl mt-5 md:mt-6">Fast Delivery</h3>
+                    <p class="font-light text-sm md:text-lg mt-2 md:mt-3">Enjoy fast delivery with our shop! We
+                        ensure quick processing, reliable shipping, and doorstep delivery, providing a seamless shopping
+                        experience.</p>
+                </div>
+                <div class="bg-[#EFEBE3] rounded-xl p-6 md:p-9 text-center">
+                    <img class="mx-auto bg-white rounded-full p-4 md:p-6 max-sm:w-2/4" src="assets/healthy.png" alt="">
+                    <h3 class="font-semibold text-xl md:text-2xl mt-5 md:mt-6">Healthy Products </h3>
+                    <p class="font-light text-sm md:text-lg mt-2 md:mt-3">Our store offers healthy, organic, and
+                        natural products, promoting wellness, sustainability, and a balanced lifestyle for you and your
+                        family.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
