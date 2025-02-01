@@ -4,9 +4,5 @@
   .sora-font {
     font-family: "Sora", serif;
   }
-  .brd {
-    width: 100%;
-    margin-top: 12px;
-    box-sizing: border-box;
-    border: 0.1px solid #179800;
-}
+  .adlam-font {
+    font-family: "ADLaM Display", serif;}
